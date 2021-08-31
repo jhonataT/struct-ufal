@@ -1,0 +1,37 @@
+* { 
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-container {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    height: 20.625rem;
+    width: 20rem;
+}
+
+.row {
+    height: 6.875rem;
+    width: 18.75rem;
+}
+
+#first-row:nth-child(even) {
+    margin: 0;
+    margin-left: 0.625rem;
+    /* background-color: red; */
+}
+
+.board-container button {
+    height: 6.25rem;
+    width: 6.25rem;
+}
+ 

@@ -1,0 +1,41 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20rem;
+
+    label {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 0.3rem;
+    }
+
+    input {
+        padding: 0.3rem;
+        border-bottom: 0.2rem #000;
+        margin-bottom: 0.3rem;
+        border-radius: 0.3rem;
+        text-align: center;
+    }
+
+    button {
+        background-color: #0F9B8E;
+        padding: 0.3rem;
+        color: #fff;
+        border-radius: 0.3rem;
+    }
+
+    button:hover {
+        background-color: #0c8c7f;
+        cursor: pointer;
+    }
+
+    p {
+        position: relative;
+        top: 1rem;
+        left: 5rem;
+        color: #fff;
+        width: 10rem;
+    }
+}
